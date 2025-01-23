@@ -7,7 +7,7 @@ import { redirect } from "next/navigation";
 
 function page() {
   useEffect(()=>{
-    redirect('/api/auth/login?post_login_redirect_url=/dashboard')
+    redirect('/dashboard')
   },[])
  
   return (
